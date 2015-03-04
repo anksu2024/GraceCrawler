@@ -49,11 +49,11 @@ public class ChildParser implements Runnable {
 			createJSON(line.toString());
 			scanner.close();
 		} catch (IOException e) {
-			e.printStackTrace();
+
 		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
+
 		} catch (SAXException e) {
-			e.printStackTrace();
+
 		}
 	}
 
