@@ -1,7 +1,5 @@
 # GraceCrawler
 
-A Basic Wikipedia Crawler
-
 Problem Description:
 
 Given this link, http://en.wikipedia.org/wiki/List_of_television_programs_by_name,
