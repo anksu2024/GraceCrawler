@@ -3,7 +3,7 @@
 
 A Basic Wikipedia Crawler
 
-Problem Description
+Problem Description:
 
 Given this link, http://en.wikipedia.org/wiki/List_of_television_programs_by_name,
 write a crawler to fetch each show page and extract the following metadata
@@ -46,9 +46,13 @@ JSON Format:
 
 ==================================================================================
 
-Note: This Crawler requires uninterrupted Internet connection
-
+Note:
+This Crawler requires uninterrupted Internet connection
 This Application has been written using Java as Programming language
+
+==================================================================================
+
+Execution/ Configuration:
 
 To execute in Eclipse:
 1) Execute the GraceCrawler file
