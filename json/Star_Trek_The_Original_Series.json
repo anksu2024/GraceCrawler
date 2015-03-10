@@ -1,0 +1,11 @@
+{
+	"title":"Star Trek",
+	"genre":"Adventure",
+	"creators":["Gene Roddenberry"],
+	"cast":["William Shatner","Leonard Nimoy","DeForest Kelley"],
+	"country_of_origin":"United States",
+	"seasons":3,
+	"episodes":79,
+	"start_date":"Thu Sep 08 00:00:00 EDT 1966",
+	"end_date":"Tue Jun 03 00:00:00 EDT 1969"
+}
