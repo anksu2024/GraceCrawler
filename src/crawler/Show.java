@@ -44,7 +44,9 @@ public class Show {
 			returnString.append("\"" + creator + "\",");
 		}
 
-		returnString.deleteCharAt(returnString.length() - 1);
+		if(returnString.charAt(returnString.length() - 1) == ',') {
+			returnString.deleteCharAt(returnString.length() - 1);
+		}
 		returnString.append("],");
 
 		returnString.append("\n\t\"cast\":[");
@@ -52,7 +54,9 @@ public class Show {
 			returnString.append("\"" + c + "\",");
 		}
 
-		returnString.deleteCharAt(returnString.length() - 1);
+		if(returnString.charAt(returnString.length() - 1) == ',') {
+			returnString.deleteCharAt(returnString.length() - 1);
+		}
 		returnString.append("],");
 
 		if(country_of_origin != null && !country_of_origin.equals("")) {
