@@ -18,6 +18,7 @@ not insert a reasonable (and possibly random) amount of time between fetching
 each individual show page.
 
 Metadata that should be extracted (if available):
+
  - Show title
  - Genre
  - Creators
@@ -30,6 +31,7 @@ Metadata that should be extracted (if available):
 
 JSON Format:
 {
+
     title: "",
     genre: "",
     creators: ["name 1", "name 2", ...],
