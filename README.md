@@ -3,11 +3,11 @@
 Problem Description:
 
 Given this link, http://en.wikipedia.org/wiki/List_of_television_programs_by_name,
-write a crawler to fetch each show page and extract the following metadata
-(where available) into a json file with the provided format below.
-Each show should have it's data written into it's own json file, and each json
-file should be named by replacing all special characters (including spaces) in
-the title with underscores (_) and have a .json extension.  
+this crawler fetchs each show page and extracts the metadata (where available) 
+into a json file with the provided format below. Each show should have it's data
+written into it's own json file, and each json file should be named by replacing
+all special characters (including spaces) in the title with underscores (_) and
+have a .json extension.
 
 Tools and technologies: Eclipse IDE, Core Java
 
