@@ -51,6 +51,7 @@ This Application has been written using Java as Programming language
 Execution/ Configuration:
 
 To execute in Eclipse:
+
 1) Execute the GraceCrawler file
 2) Result (.json files) can be obtained in the /json folder
 3) The total Execution time in minutes is also displayed in the end
