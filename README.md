@@ -7,18 +7,15 @@ write a crawler to fetch each show page and extract the following metadata
 (where available) into a json file with the provided format below.
 Each show should have it's data written into it's own json file, and each json
 file should be named by replacing all special characters (including spaces) in
-the title with underscores (_) and have a .json extension.  You may use any
-language you would like to, but you must provide a README with instructions on
-how to run your code.  Bonus points if the code can be run from the command
-line without an IDE.
+the title with underscores (_) and have a .json extension.  
 
-*** Please pay careful attention to rate limiting your solution.
-Wikipedia does enforce such standards and will block your program if you do
-not insert a reasonable (and possibly random) amount of time between fetching
-each individual show page.
+Tools and technologies: Eclipse IDE, Core Java
 
-Metadata that should be extracted (if available):
+Note:
+Wikipedia enforces rate limiting standards and blocks the program if a reasonable 
+amount of time isn't inserted between fetching each individual show page.
 
+Metadata extracted (if available) in the following format:
  - Show title
  - Genre
  - Creators
@@ -45,7 +42,7 @@ JSON Format:
 
 ==================================================================================
 
-Note:
+Implementation Notes:
 This Crawler requires uninterrupted Internet connection
 This Application has been written using Java as Programming language
 
